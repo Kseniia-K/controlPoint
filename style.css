@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+h1, p {
+    text-align: center;
+}
+h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.everything {
+    /* background-color: lightgreen; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.begin {
+    width: 1000px;
+    /* background-color: lightskyblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.first {
+    /* background-color: pink; */
+    padding: 5%;
+}
+.text {
+    /* background-color: bisque; */
+    margin-bottom: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.cards {
+    width: 1000px;
+    /* background-color: lavender; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.item {
+    margin: 10px;
+    padding-top: 25px;
+    height: 300px;
+    width: 290px;
+    /* background-color: lemonchiffon; */
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+.green {
+    background-color: rgb(145, 211, 2);
+}
+.orange {
+    background-color: rgb(255, 102, 0)
+}
+.aqua {
+    background-color: rgb(88, 218, 201);
+}
+.pic1 {
+    background-image: url(https://img.freepik.com/free-photo/group-diverse-people-having-business-meeting_53876-25060.jpg?size=626&ext=jpg&ga=GA1.2.122578233.1668592227);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(90%);
+}
+.pic2 {
+    background-image: url(https://img.freepik.com/free-photo/top-view-manager-woman-analyzing-financial-paperwork-strategy-typing-expertise-laptop_482257-9055.jpg?size=626&ext=jpg&ga=GA1.2.122578233.1668592227);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(90%);
+
+}
+.pic3 {
+    background-image: url(https://img.freepik.com/free-photo/side-view-cropped-unrecognizable-business-people-working-common-desk_1098-20474.jpg?size=626&ext=jpg&ga=GA1.2.122578233.1668592227);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(90%);
+}
+.logo1 {
+    background-image: url(https://img.freepik.com/free-icon/growth_318-937411.jpg?size=338&ext=jpg&ga=GA1.2.122578233.1668592227&semt=sph);
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: center;
+}
+.logo2 {
+    background-image: url(https://img.freepik.com/free-icon/filter_318-937455.jpg?size=338&ext=jpg&ga=GA1.2.122578233.1668592227&semt=sph);
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: center;
+}
+.logo3 {
+    background-image: url(https://img.freepik.com/free-icon/graph_318-937410.jpg?size=338&ext=jpg&ga=GA1.2.122578233.1668592227&semt=sph);
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position: center;
+}
+@media (min-width: 350px) and (max-width: 576px) {
+    h1 {
+        font-size: 35px;
+    }
+    .item {
+        height: 200px;
+        width: 300px;
+    }
+    .logo1, .logo2, .logo3 {
+        background-position: 100px 100px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    h1 {
+        font-size: 45px;
+    }
+    .item {
+        height: 200px;
+        width: 300px;
+    }
+    .logo1, .logo2, .logo3 {
+        background-position: 100px 100px;
+    }
+    .cards {
+        max-width: 992px;
+    }
+}
